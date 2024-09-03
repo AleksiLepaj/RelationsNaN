@@ -9,5 +9,8 @@ namespace RelationsNaN.Models
         public Game Game { get; set; }
         [ValidateNever]
         public Purchase Purchase { get; set; }
+
+        //public int Count { get; set; }
+        //public Owner Owner { get; set; }
     }
 }
